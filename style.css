@@ -35,6 +35,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    overflow: hidden;
 }
 
 .circle {
@@ -43,9 +44,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 .image {
+    position: relative;
     width: 155px;
     height: 150px;
 }
@@ -58,6 +61,7 @@ h2 {
 }
 
 p {
+    position: relative;
     color: #9ca3af;
     font-weight: 400;
     margin-top: 10px;
@@ -67,18 +71,60 @@ p {
     text-align: center;
 }
 
+.circle, .image, h2, p {
+    animation: load 1s ease;
+    animation-delay: 2;
+}
+
 .socials {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
 }
 
 .socials a {
+    position: relative;
     margin-right: 5px;
+}
+
+.socials a:nth-child(1), .socials a:nth-child(2), .socials a:nth-child(3) {
+    animation: load1 1s ease 0s 1;
+    animation-delay: 2;
+}
+
+.socials a:nth-child(4), .socials a:nth-child(5), .socials a:nth-child(6) {
+    animation: load2 1s ease 0s 1;
+    animation-delay: 2;
 }
 
 a {
   transition: all 0.5s;
+}
+
+@keyframes load {
+    0% {
+        top: -500em;
+    }
+    100% {
+        top: 0;
+    }
+}
+
+@keyframes load1 {
+    0% {
+        left: -500em;
+    }
+    100% {
+        left: 0;
+    }
+}
+
+@keyframes load2 {
+    0% {
+        right: -500em;
+    }
+    100% {
+        right: 0;
+    }
 }
 
 /* outline: none;
