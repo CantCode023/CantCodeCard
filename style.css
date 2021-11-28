@@ -100,6 +100,10 @@ a {
   transition: all 0.5s;
 }
 
+.card p a {
+    color: rgba(87, 98, 255,1)
+}
+
 @keyframes load {
     0% {
         top: -500em;
