@@ -57,72 +57,31 @@ h2 {
     margin-top: 25px;
 }
 
-.btn {
-    background: #55ADEE;
-    border-radius: 6px;
-    border: none;
-    cursor: pointer;
-    transition: all 0.3s ease; 
-    margin-top: 0px;
-    width: 100px;
-    height: 50px;
-    font-weight: 500;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: white;
-}
-
-.btn img {
-    width: 24px;
-    height: 24px;
-    padding-right: 5px;
-}
-
-.btn1 {
-    margin-top: 10px;
-    background: #FE0000;
-    border-radius: 6px;
-    border: none;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    width: 100px;
-    height: 50px;
-    font-weight: 500;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: white;
-}
-
-.btn1 img {
-    width: 24px;
-    height: 24px;
-    padding-right: 5px;
-}
-
-button {
-  transition: all 0.5s;
-}
-
-.btn:focus {
-    outline: none;
-    box-shadow: 0 0 0 5px rgba(85,173,238,0.5);
-}
-
-.btn1:focus {
-    outline: none;
-    box-shadow: 0 0 0 5px rgba(254,0,0,0.5);
-}
-
 p {
     color: #9ca3af;
     font-weight: 400;
-    margin-top: 15px;
+    margin-top: 10px;
     word-wrap: break-word;
     width: 300px;
     height: 100px;
     text-align: center;
 }
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.socials a {
+    margin-right: 5px;
+}
+
+a {
+  transition: all 0.5s;
+}
+
+/* outline: none;
+box-shadow: 0 0 0 5px rgba(85,173,238,0.5); */
+
+/* <img src="https://img.icons8.com/ios-glyphs/30/cccccc/twitter--v1.png"> */
