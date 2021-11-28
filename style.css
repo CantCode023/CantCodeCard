@@ -38,15 +38,11 @@ body {
 }
 
 .circle {
-    width: 200px;
-    height: 200px;
     border: dotted 5px gray;
     border-radius: 25em;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    top: 25px;
 }
 
 .image {
@@ -58,7 +54,7 @@ h2 {
     position: relative;
     color: white;
     font-weight: 500;
-    margin-top: 10em;
+    margin-top: 25px;
 }
 
 .btn {
@@ -69,7 +65,7 @@ h2 {
     transition: all 0.3s ease; 
     margin-top: 0px;
     width: 100px;
-    height: 80px;
+    height: 50px;
     font-weight: 500;
     display: flex;
     justify-content: center;
@@ -92,7 +88,7 @@ h2 {
     cursor: pointer;
     transition: all 0.3s ease;
     width: 100px;
-    height: 80px;
+    height: 50px;
     font-weight: 500;
     display: flex;
     justify-content: center;
