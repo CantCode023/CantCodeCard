@@ -8,4 +8,8 @@ A profile card made with HTML, CSS and JavaScript!
 
 #Twitter
 
-Follow me on twitter [here](https://followcantcode.smktd.repl.co)
+Follow me on Twitter [here](https://followcantcode.smktd.repl.co)
+
+#Youtube
+
+Subscribe to me on Youtube [here](https://www.youtube.com/channel/UCH1I4Ak44uDbI67T6i-u1Mg)
