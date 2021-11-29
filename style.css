@@ -101,7 +101,14 @@ a {
 }
 
 .card p a {
-    color: rgba(87, 98, 255,1)
+    color: rgba(87, 98, 255, 1)
+}
+
+.eh {
+    position: relative;
+    color: rgba(87, 98, 255, 1);
+    animation: load3 1s ease 1;
+    animation-delay: 2;
 }
 
 @keyframes load {
@@ -128,6 +135,15 @@ a {
     }
     100% {
         right: 0;
+    }
+}
+
+@keyframes load3 {
+    0% {
+        bottom: -500em;
+    }
+    100% {
+        bottom: 0;
     }
 }
 

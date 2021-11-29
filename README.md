@@ -1,6 +1,6 @@
 # Cant Code
 
-<img src="https://cdn.discordapp.com/attachments/891578585536684052/914507085574701056/unknown.png" alt="https://followcantcode.smktd.repl.co">
+<img src="https://cdn.discordapp.com/attachments/891578585536684052/914733511389364264/unknown.png" alt="https://followcantcode.smktd.repl.co">
 
 <hr>
 
