@@ -106,7 +106,7 @@ a {
 
 .eh {
     position: relative;
-    color: rgba(87, 98, 255, 1);
+    color: #9ca3af;
     animation: load3 1s ease 1;
     animation-delay: 2;
 }
