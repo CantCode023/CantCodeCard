@@ -47,6 +47,7 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   overflow: hidden;
+  transition: 0.5s;
 }
 
 .card:hover {
